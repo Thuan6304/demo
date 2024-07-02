@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sh"/>
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/iv1"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Tên Xe: "
+                />
+            <TextView
+                android:id="@+id/txttenXe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="TenXe" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LL2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/iv1"
+            android:layout_below="@+id/LL1"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Loại Xe: " />
+            <TextView
+                android:id="@+id/txtloaiXe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="LoaiXe" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/iv1"
+            android:layout_below="@+id/LL2"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Giá Thuê: " />
+            <TextView
+                android:id="@+id/txtGiaThue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="GiaThue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/iv1"
+            android:layout_below="@+id/LL3"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Mô Tả: " />
+            <TextView
+                android:id="@+id/txtMoTa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="MoTa" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_below="@+id/LL4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:id="@+id/btnSua"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Sửa"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/hinh"/>
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Xóa"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/hinh2"/>
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

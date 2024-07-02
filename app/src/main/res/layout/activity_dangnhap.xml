@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tabike"
+    android:id="@+id/layoutDangNhap"
+    tools:context=".DangnhapActivity">
+
+    <EditText
+        android:layout_marginTop="320dp"
+        android:id="@+id/edtemail"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shape"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtmatkhau"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:hint="Mật khẩu"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btndangnhap"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/hinh"
+        android:text="Đăng Nhập"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hoặc"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btndangky"
+        android:background="@drawable/hinh3"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:text="Tạo tài khoản mới"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+</LinearLayout>

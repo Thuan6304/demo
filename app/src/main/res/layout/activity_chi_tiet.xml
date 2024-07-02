@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/mau_chi_tiet"
+        android:orientation="horizontal">
+<androidx.cardview.widget.CardView
+    android:layout_width="130dp"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp">
+    <ImageView
+        android:id="@+id/ivHinhChiTiet"
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sh"
+        android:scaleType="centerCrop"
+        android:background="@drawable/hinh"/>
+</androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="Tên xe"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Loại Xe: "
+                android:inputType="number"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/txtLoaiXeChiTiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Giá Thuê: "
+                android:inputType="number"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/txtGiaThueChiTiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+       </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mau_nen"
+        android:orientation="vertical">
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mô tả "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/txtMoTaChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColorHint="#FFFFFF" />
+</ScrollView>
+
+        <Button
+            android:id="@+id/btnQuayLai"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/hinh3"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Truyện khác"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvChiTiet"
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

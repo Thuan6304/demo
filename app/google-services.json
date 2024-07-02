@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "594757768980",
+    "firebase_url": "https://thuexe-809dd-default-rtdb.firebaseio.com",
+    "project_id": "thuexe-809dd",
+    "storage_bucket": "thuexe-809dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594757768980:android:afa1cf7a5d33e0d26b9401",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkolKvsSy3Z_n8WxFX1Mm0HrbH4_O9xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594757768980:android:969781d7c2381a4c6b9401",
+        "android_client_info": {
+          "package_name": "com.example.home"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkolKvsSy3Z_n8WxFX1Mm0HrbH4_O9xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594757768980:android:bc5d9e1f67c052b56b9401",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkolKvsSy3Z_n8WxFX1Mm0HrbH4_O9xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594757768980:android:3f39887097f5195f6b9401",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkolKvsSy3Z_n8WxFX1Mm0HrbH4_O9xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

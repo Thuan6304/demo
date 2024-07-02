@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mnTimK"
+        android:title="TimKiem"
+        android:icon="@drawable/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mnTaiK"
+        android:title="TaiKhoan"
+        android:icon="@drawable/admin"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mnMain"
+        android:icon="@drawable/menu"
+        app:showAsAction="always"
+        android:title="Main"/>
+
+</menu>
